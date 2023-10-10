@@ -1,0 +1,18 @@
+ 
+curl 'http://localhost:3045/relatorioFotografico/6' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: pt-BR,pt' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryDgJSrwMvlh4cwruj' \
+  -H 'Origin: http://localhost:1986' \
+  -H 'Referer: http://localhost:1986/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'Sec-GPC: 1' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Brave";v="117", "Not;A=Brand";v="8", "Chromium";v="117"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  --data-raw $'------WebKitFormBoundaryDgJSrwMvlh4cwruj\r\nContent-Disposition: form-data; name="relatorioFotografico"\r\n\r\n{"idOcorrencia":6,"status":"EM_ANDAMENTO"}\r\n------WebKitFormBoundaryDgJSrwMvlh4cwruj\r\nContent-Disposition: form-data; name="referencias"\r\n\r\n[{"type":"Point","coordinates":[-5008719.745448601,-2423432.933802134]},{"type":"Point","coordinates":[-5008719.745448601,-2423432.933802134]},{"type":"Point","coordinates":[-5008719.745448601,-2423432.933802134]},{"type":"Point","coordinates":[-5008719.745448601,-2423432.933802134]}]\r\n------WebKitFormBoundaryDgJSrwMvlh4cwruj\r\nContent-Disposition: form-data; name="files"; filename="WhatsApp Image 2023-09-28 at 19.50.44.jpeg"\r\nContent-Type: image/jpeg\r\n\r\n\r\n------WebKitFormBoundaryDgJSrwMvlh4cwruj\r\nContent-Disposition: form-data; name="files"; filename="WhatsApp Image 2023-09-28 at 19.50.44.jpeg"\r\nContent-Type: image/jpeg\r\n\r\n\r\n------WebKitFormBoundaryDgJSrwMvlh4cwruj\r\nContent-Disposition: form-data; name="files"; filename="WhatsApp Image 2023-09-28 at 19.50.44.jpeg"\r\nContent-Type: image/jpeg\r\n\r\n\r\n------WebKitFormBoundaryDgJSrwMvlh4cwruj\r\nContent-Disposition: form-data; name="files"; filename="WhatsApp Image 2023-09-28 at 19.50.44.jpeg"\r\nContent-Type: image/jpeg\r\n\r\n\r\n------WebKitFormBoundaryDgJSrwMvlh4cwruj--\r\n' \
+  --compressed
